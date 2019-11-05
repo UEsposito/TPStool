@@ -11,7 +11,7 @@ There are 3 folders:
 
 To run TPS do the following:
    1. Copy the folder structure to your computer.
-   2. Execute the function TPS_main.m. This is the main function which loads the excel files in data/ and outputs the results to results/.
+   2. Execute the function TPS_main.m with an input file, for example, TPS_main('../data/TPS_test_ids.xlsx'). This is the main function which loads the excel files in data/ and outputs the results to results/.
    3. The running time is <10s per sample.
 
 Wednesday 30th October 2019
