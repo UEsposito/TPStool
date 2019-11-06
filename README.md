@@ -5,7 +5,7 @@ TPS is a method that dates ancient genomes solely from their genomic sequence.
 In the following we provide the code to run the TPS tool reported by Esposito et al.'s study
 
 There are 3 folders:
--  data/ contains two  excel filse with the data need by TPS to run. First, TPS_reference_ids.xlsx, this file contains the temporal components and dates for the  reference individuals. This file should not be modified for Eurasian samples, unless you want to add new references. The second excel file, has the sample's temporal components which TPS analysis to infer their date. To get these temproal components, run supervised ADMIXTURE for your sample agaisnt the eight temporal populations provided in the data folder of the TPSpaper depository.
+-  data/ contains two excel files with the data needed by TPS to run. First, TPS_reference_ids.xlsx, this file contains the temporal components and dates for the  reference individuals. This file should not be modified for Eurasian samples, unless you want to add new references. The second excel file has the sample's temporal components which TPS analyses to infer their date. To get these temproal components, run supervised ADMIXTURE for your sample agaisnt the eight temporal populations provided in the data folder of the TPSpaper repository.
 -  src/ contains the Matlab scripts necessary to run TPS.
 -  results/ contains the output of TPS when run on the sample data.
 
